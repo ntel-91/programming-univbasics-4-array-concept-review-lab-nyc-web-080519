@@ -5,7 +5,7 @@ counter = 0
     if array[counter] === value_to_find
       return counter
     end
-  else counter += 1 
+    counter += 1 
   end
 end
 

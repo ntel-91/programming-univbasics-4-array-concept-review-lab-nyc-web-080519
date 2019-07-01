@@ -5,8 +5,8 @@ counter = 0
     if array[counter] === value_to_find
       return counter
     end
-  else counter += counter
-  end   
+  else counter += 1 
+  end
 end
 
 def find_max_value(array)
